@@ -1,5 +1,15 @@
 # rubocop-daemon docker
 
+## Build
+```
+docker-compose build
+```
+
+## Run
+```
+docker-compose up -d
+```
+
 ## Usage
 
 for a single file:
