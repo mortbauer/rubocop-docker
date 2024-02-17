@@ -1,0 +1,9 @@
+services:
+  rubocop:
+    build:
+      context: ./
+    ports:
+      - 3005:3001
+    volumes:
+     # - ./tmp/:/app/tmp
+     - ./tmp/rubocop-daemon:/root/.cache/rubocop-daemon/app
