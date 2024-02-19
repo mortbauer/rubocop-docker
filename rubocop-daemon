@@ -1,7 +1,6 @@
 #!/bin/bash
 
 set -eu
-cd ./
 
 NETCAT="nc -N" # Remove the -N if you not using Linux
 DAEMON_DIR="tmp/rubocop-daemon"
